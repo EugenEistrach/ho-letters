@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>HO HO HO Letters</title>
+<title>HO HO HO Buchstaben</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,12 +23,12 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #1d1a1b; --surface: #262224; --stage: #2f2a2c; --fg: #f1eaec;
+    --bg: #1d1a1b; --surface: #262224; --stage: #5a5155; --fg: #f1eaec;
     --muted: #b3a6aa; --line: #3b3437; --accent: #e5869a; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #1d1a1b; --surface: #262224; --stage: #2f2a2c; --fg: #f1eaec;
+  --bg: #1d1a1b; --surface: #262224; --stage: #5a5155; --fg: #f1eaec;
   --muted: #b3a6aa; --line: #3b3437; --accent: #e5869a; color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -87,63 +87,59 @@ footer p { margin: 0; }
 <div class="wrap">
   <header>
     <h1>H<span>O</span> H<span>O</span> H<span>O</span></h1>
-    <p>Three styles for the letters, each shown as one H and one O. Same size as the test A: 6&nbsp;cm tall, now 1.2&nbsp;cm thick with a flat front. Drag a model to turn it.</p>
-    <div class="colors" role="group" aria-label="Preview color">
-      <span class="label">Preview color</span>
-      <button class="chip" id="c-blush" style="--c:#e8b4bc" data-color="#e8b4bc" aria-label="Blush pink" aria-pressed="true"></button>
-      <button class="chip" id="c-sage" style="--c:#a9c3a8" data-color="#a9c3a8" aria-label="Sage green" aria-pressed="false"></button>
-      <button class="chip" id="c-sky" style="--c:#a7c4e0" data-color="#a7c4e0" aria-label="Sky blue" aria-pressed="false"></button>
-      <button class="chip" id="c-butter" style="--c:#efd68a" data-color="#efd68a" aria-label="Butter yellow" aria-pressed="false"></button>
-      <button class="chip" id="c-red" style="--c:#c12e1f" data-color="#c12e1f" aria-label="Red" aria-pressed="false"></button>
-      <button class="chip" id="c-white" style="--c:#f2efe9" data-color="#f2efe9" aria-label="White" aria-pressed="false"></button>
+    <p>Drei Stile für die Buchstaben, jeweils als ein H und ein O. Gleiche Größe wie das Test-A: 6&nbsp;cm hoch, jetzt 1,2&nbsp;cm dick mit flacher Vorderseite. Zum Drehen ein Modell mit dem Finger oder der Maus ziehen.</p>
+    <div class="colors" role="group" aria-label="Farbe">
+      <span class="label">Farbe</span>
+      <button class="chip" id="c-red" style="--c:#c12e1f" data-color="#c12e1f" aria-label="Rot" aria-pressed="true"></button>
+      <button class="chip" id="c-black" style="--c:#1e1e1e" data-color="#1e1e1e" aria-label="Schwarz" aria-pressed="false"></button>
     </div>
   </header>
 
   <section class="style" data-style="soft">
-    <div class="stage"><div class="loading">Loading model…</div><span class="hint">Drag to turn · pinch to zoom</span></div>
+    <div class="stage"><div class="loading">Modell wird geladen…</div><span class="hint">Ziehen zum Drehen · mit zwei Fingern zoomen</span></div>
     <div class="info">
-      <span class="tag">Style 1</span>
-      <h2>Soft</h2>
-      <p>Rounded letters with soft ends and a wide rounded front edge. Friendly, made for a kid's room.</p>
+      <span class="tag">Stil 1</span>
+      <h2>Weich</h2>
+      <p>Runde Buchstaben mit weichen Enden und einer breit abgerundeten Vorderkante. Freundlich, passend fürs Kinderzimmer.</p>
       <dl>
-        <dt>H</dt><dd>4.9 × 6.0 cm</dd>
-        <dt>O</dt><dd>5.7 × 6.0 cm</dd>
-        <dt>3 H + 3 O</dt><dd>about 3 h 55 min, 57 g</dd>
+        <dt>H</dt><dd>4,9 × 6,0 cm</dd>
+        <dt>O</dt><dd>5,7 × 6,0 cm</dd>
+        <dt>3 H + 3 O</dt><dd>ca. 3 Std. 55 Min., 57 g</dd>
       </dl>
     </div>
   </section>
 
   <section class="style" data-style="modern">
-    <div class="stage"><div class="loading">Loading model…</div><span class="hint">Drag to turn · pinch to zoom</span></div>
+    <div class="stage"><div class="loading">Modell wird geladen…</div><span class="hint">Ziehen zum Drehen · mit zwei Fingern zoomen</span></div>
     <div class="info">
-      <span class="tag">Style 2</span>
+      <span class="tag">Stil 2</span>
       <h2>Modern</h2>
-      <p>A bold, round sans-serif. Clean lines, a perfectly round O, and a slight round-over on the front edge.</p>
+      <p>Eine kräftige, runde Schrift. Klare Linien, ein kreisrundes O und eine leicht abgerundete Vorderkante.</p>
       <dl>
-        <dt>H</dt><dd>5.3 × 6.0 cm</dd>
-        <dt>O</dt><dd>6.0 × 6.0 cm</dd>
-        <dt>3 H + 3 O</dt><dd>about 4 h 20 min, 68 g</dd>
+        <dt>H</dt><dd>5,3 × 6,0 cm</dd>
+        <dt>O</dt><dd>6,0 × 6,0 cm</dd>
+        <dt>3 H + 3 O</dt><dd>ca. 4 Std. 20 Min., 68 g</dd>
       </dl>
     </div>
   </section>
 
   <section class="style" data-style="slab">
-    <div class="stage"><div class="loading">Loading model…</div><span class="hint">Drag to turn · pinch to zoom</span></div>
+    <div class="stage"><div class="loading">Modell wird geladen…</div><span class="hint">Ziehen zum Drehen · mit zwei Fingern zoomen</span></div>
     <div class="info">
-      <span class="tag">Style 3</span>
-      <h2>Slab</h2>
-      <p>Heavy block letters with square feet, like on a college sweater or an old wooden sign.</p>
+      <span class="tag">Stil 3</span>
+      <h2>Block</h2>
+      <p>Schwere Blockbuchstaben mit eckigen Füßchen, wie auf einem College-Pullover oder einem alten Holzschild.</p>
       <dl>
-        <dt>H</dt><dd>6.2 × 6.0 cm</dd>
-        <dt>O</dt><dd>5.7 × 6.0 cm</dd>
-        <dt>3 H + 3 O</dt><dd>about 4 h 55 min, 83 g</dd>
+        <dt>H</dt><dd>6,2 × 6,0 cm</dd>
+        <dt>O</dt><dd>5,7 × 6,0 cm</dd>
+        <dt>3 H + 3 O</dt><dd>ca. 4 Std. 55 Min., 83 g</dd>
       </dl>
     </div>
   </section>
 
   <footer>
-    <p>The back of each letter is flat and sits on the printer plate. All six letters of one style print together in one go, in one color.</p>
-    <p>Pick a style (and a color if you like), and any change: bigger, thinner, rounder edges.</p>
+    <p>Die Rückseite jedes Buchstabens ist flach und liegt beim Drucken auf der Druckplatte. Alle sechs Buchstaben eines Stils werden zusammen in einem Durchgang gedruckt, in einer Farbe. Gerade gibt es Rot und Schwarz.</p>
+    <p>Such dir einen Stil und eine Farbe aus. Wenn du etwas anders haben möchtest, sag Bescheid: größer, dünner oder rundere Kanten.</p>
   </footer>
 </div>
 
@@ -161,7 +157,7 @@ import { mergeVertices } from "three/addons/utils/BufferGeometryUtils.js";
 
 const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const loader = new STLLoader();
-const material = new THREE.MeshStandardMaterial({ color: "#e8b4bc", roughness: 0.62, metalness: 0 });
+const material = new THREE.MeshStandardMaterial({ color: "#c12e1f", roughness: 0.62, metalness: 0 });
 const viewers = [];
 
 function cssVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
@@ -198,7 +194,7 @@ async function setup(section) {
     group.position.set(-(hw + gap + ow) / 2, -30, -6);
     stage.querySelector(".loading").remove();
   } catch (e) {
-    stage.querySelector(".loading").textContent = "The model could not load. Reload the page to try again.";
+    stage.querySelector(".loading").textContent = "Das Modell konnte nicht geladen werden. Lade die Seite neu, um es noch einmal zu versuchen.";
     return;
   }
 
